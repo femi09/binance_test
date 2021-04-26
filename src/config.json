@@ -1,0 +1,3 @@
+{
+    "binance_test_api": "http://localhost:4040/api/get_current_price"
+}

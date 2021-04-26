@@ -1,0 +1,79 @@
+.binance_form {
+  width: 20%;
+  margin: 4rem auto;
+}
+
+h1 {
+  padding: 3rem 0;
+  text-align: center;
+  color: #3b3bf3;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form_group {
+  margin-bottom: 1rem;
+}
+
+.form_group input,
+.form_group select {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+}
+
+.form_group input:focus,
+.form_button input:focus {
+  outline: none;
+}
+
+.form_group label {
+  font-weight: 500;
+}
+
+.input_group {
+  display: flex;
+}
+
+select:focus {
+  outline: none;
+}
+
+.form_button {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.form_button button {
+  background-color: #1f1fcc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form_button button:hover {
+  background-color: #3e3eee;
+}
+
+.loading {
+  padding: 1rem;
+  color: red;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.small {
+  color: rgb(236, 38, 38);
+  font-weight: 600;
+}
